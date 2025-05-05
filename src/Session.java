@@ -1,5 +1,5 @@
 public abstract class Session {
-    private int sessionId;
+    private final int sessionId;
     public Student student;
     public Mentor mentor;
     private static int nextSessionId = 1;
