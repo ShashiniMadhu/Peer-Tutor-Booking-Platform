@@ -1,4 +1,4 @@
-public class Mentor extends User{
+public class Mentor extends User implements Notifiable{
     public String department;
 
 
@@ -20,4 +20,10 @@ public class Mentor extends User{
     public String toString() {
         return getUserRole() + "[ID=" + getId() + ", Name=" + getName() + ", Department=" + department + "]";
     }
+
+    @Override
+    public void notify(String message) {
+        System.out.println("Notification for Mentor " + getName() + ": " + message);
+    }
+
 }

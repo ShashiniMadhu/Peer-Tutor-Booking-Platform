@@ -2,15 +2,13 @@ public abstract class Session {
     private int sessionId;
     public Student student;
     public Mentor mentor;
-    public String dateTime;
     private static int nextSessionId = 1;
 
 
-    public Session(Student student, Mentor mentor, String dateTime) {
+    public Session(Student student, Mentor mentor) {
         this.sessionId = nextSessionId++;
         this.student = student;
         this.mentor = mentor;
-        this.dateTime = dateTime;
     }
 
     public int getSessionId() {
@@ -23,10 +21,6 @@ public abstract class Session {
 
     public Mentor getMentor() {
         return mentor;
-    }
-
-    public String getDateTime() {
-        return dateTime;
     }
 
     public abstract String getType();

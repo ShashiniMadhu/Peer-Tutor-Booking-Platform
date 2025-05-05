@@ -1,8 +1,8 @@
-public class CarrerSession extends Session{
+public class CareerSession extends Session {
     public String topic;
 
-    public CarrerSession(Student student, Mentor mentor, String dateTime, String topic) {
-        super(student, mentor, dateTime);
+    public CareerSession(Student student, Mentor mentor, String topic) {
+        super(student, mentor);
         this.topic = topic;
     }
 
@@ -10,6 +10,7 @@ public class CarrerSession extends Session{
     public String getType() {
         return "Career Coaching";
     }
+
     @Override
     public String getDetails() {
         return "Topic: " + topic;

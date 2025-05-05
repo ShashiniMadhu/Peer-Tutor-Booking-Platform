@@ -1,8 +1,8 @@
 public class SubjectSession extends Session{
     public String subjectName;
 
-    public SubjectSession(Student student, Mentor mentor, String dateTime, String subjectName) {
-        super(student, mentor, dateTime);
+    public SubjectSession(Student student, Mentor mentor, String subject) {
+        super(student, mentor);
         this.subjectName = subjectName;
     }
 
