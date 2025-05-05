@@ -6,7 +6,7 @@ public abstract class Session {
     private static int nextSessionId = 1;
 
 
-    public Session(int sessionId, Student student, Mentor mentor, String dateTime) {
+    public Session(Student student, Mentor mentor, String dateTime) {
         this.sessionId = nextSessionId++;
         this.student = student;
         this.mentor = mentor;

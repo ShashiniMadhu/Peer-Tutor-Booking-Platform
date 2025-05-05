@@ -2,8 +2,8 @@ public class Mentor extends User{
     public String department;
 
 
-    public Mentor(int id, String name, String department) {
-        super(id, name);
+    public Mentor(String name, String department) {
+        super(name);
         this.department = department;
     }
 

@@ -3,7 +3,7 @@ public abstract class User {
     public String name;
     private static int nextId = 1;
 
-    public User(int id, String name) {
+    public User(String name) {
         this.id = nextId++;
         this.name = name;
     }

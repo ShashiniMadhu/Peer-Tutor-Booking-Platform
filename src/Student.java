@@ -1,8 +1,8 @@
 public class Student extends User{
     private final int graduationYear;
 
-    public Student(int id, String name, int graduationYear) {
-        super(id, name);
+    public Student(String name, int graduationYear) {
+        super(name);
         this.graduationYear = graduationYear;
     }
 
