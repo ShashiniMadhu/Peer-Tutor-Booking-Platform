@@ -82,7 +82,7 @@ git clone https://github.com/ShashiniMadhu/Peer-Tutor-Booking-Platform.git
 
 **[Shashini Madushika]**  
 Web & Java Development Enthusiast  
-[LinkedIn Profile](https://www.linkedin.com/in/shashini-madushika-965b01319/) | [GitHub](https://github.com/your-username)
+[LinkedIn Profile](https://www.linkedin.com/in/shashini-madushika-965b01319/) | [GitHub](https://github.com/ShashiniMadhu))
 
 ---
 
