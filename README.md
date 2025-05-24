@@ -60,7 +60,7 @@ src/
 ## 🧪 How to Run
 
 1. Clone the repository:
-git clone https://github.com/your-username/peer-tutor-booking-platform.git
+git clone https://github.com/ShashiniMadhu/Peer-Tutor-Booking-Platform.git
 
 2. Open the project in your favorite IDE (like IntelliJ IDEA or Eclipse).
 
@@ -82,7 +82,7 @@ git clone https://github.com/your-username/peer-tutor-booking-platform.git
 
 **[Shashini Madushika]**  
 Web & Java Development Enthusiast  
-[LinkedIn Profile](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/your-username)
+[LinkedIn Profile](https://www.linkedin.com/in/shashini-madushika-965b01319/) | [GitHub](https://github.com/your-username)
 
 ---
 
